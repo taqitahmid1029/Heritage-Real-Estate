@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+#nav-links li {
+    @apply px-4 py-1 transition-all duration-400 ease-in-out lg:hover:text-blue-600 lg:hover:border-blue-600 lg:hover:border-b-2 lg:px-2;
+}
+
+.award {
+    @apply p-2 text-center rounded-sm bg-gradient-to-l from-teal-100 to-slate-300 transition-all duration-300 ease-in-out hover:border-gray-400 hover:border-2 hover:scale-[1.1] lg:p-6;
+}
+
+.property {
+    @apply w-[90%] p-4 rounded-md hover:border-gray-400 transition-all duration-300 ease-in-out hover:border-2 hover:scale-[1.1] sm:h-full;
+}
+
+.property-img {
+    @apply bg-center bg-cover h-[38vw] mb-2 rounded-md lg:h-[26vw];
+}
+
+.property-details {
+    @apply text-sm text-center lg:text-[16px];
+}
+
+tr td:first-child {
+    @apply text-white text-lg sm:text-xl lg:text-2xl;
+}
+
+ 
+tr td:last-child {
+    @apply text-[#323232] sm:text-lg lg:text-xl;
+}
+
+td {
+    @apply px-1 py-1.5 sm:px-8 sm:py-3;
+}
+
+.tesimonial {
+    @apply text-sm mb-6 text-justify md:text-lg lg:text-xl;
+}
+
+.footer-item {
+    @apply text-white;
+}
+
+.footer-item ul {
+    @apply flex flex-col gap-3 text-sm sm:text-[16px] lg:text-lg;
+}
+
+.footer-item h3 {
+    @apply pb-2 text-2xl lg:pb-4 md:text-3xl lg:text-4xl;
+}
+
+@theme {
+    --breakpoint-xs: 27rem;
+}
